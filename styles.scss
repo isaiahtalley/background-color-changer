@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    color: #fff;
+    font-weight: bold;
+    background: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60px;
+    width: 160px;
+    border: 3px solid #fff;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    height: 65px;
+    width: 170px;
+}
